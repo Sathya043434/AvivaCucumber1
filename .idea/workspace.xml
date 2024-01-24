@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHEkyc).feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHOUTEkyc).feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ASIP-LI=PRO(WITHOUTEkyc).feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/AvivaStepdefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/configure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/main/java/org/opencart/Pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/classes/org/opencart/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/PageObjects/HealthClaimsLoginpage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/HelathClaimsClaimIDGenerationSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/global.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reimbursement/ReimbursementClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reimbursement/ReimbursementClaim.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2b7r0C1M1xj6z37lxOt2FUbWwQr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Health/MavenProject/src/test/java/Features&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Health\MavenProject\src\test\java\Features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.testRunner">
+    <configuration name="Scenario: From BI page(WIP)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHOUTEkyc).feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="maven-project" />
+      <option name="NAME_FILTER" value="^From BI page\(WIP\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^From BI page\(WIP\)$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: From BI page(WIP)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.testRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testRunner" />
+        <item itemvalue="Cucumber Java.Scenario: From BI page(WIP)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="" />
+      <created>1705576735776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705576735776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
