@@ -1,4 +1,4 @@
-Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
+Feature: Aviva application- Aviva Fortune Plus- LI=PRO- WITHOUTEkyc
 
   Background: Aviva application login verification
     Given Im on aviva login page
@@ -8,7 +8,7 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
     Then Home Page of the Aviva application is successfully opened
 
     @SmokeTest1
-  Scenario: ASIP- NEW LEAD CREATION
+  Scenario: Aviva Fortune Plus- NEW LEAD CREATION
     Then I clicked on the Plus Icon in the aviva home page to add a new lead
     And Clicked on Add a new lead button above of the Plus icon
     And I Entered Mobile No. in Status tab -->About the Customer
@@ -23,7 +23,7 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
     And I Clicked on the Submit button Status tab --> Status
 
   @SmokeTest2
-  Scenario: ASIP- CONTINUATION- From Self/Reference home page
+  Scenario: Aviva Fortune Plus- CONTINUATION- From Self/Reference home page
     Then Clicked on self or Reference item in Lead Cart - Aviva home page
     And Click on Update button in Lead cart page
     And Clicked on lead details tab
@@ -46,20 +46,20 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
     And Selected the Priority 1 in Need Analysis tab
     And Selected the Risk Profile in Need analysis tab
     And Clicked on Submit in Need analysis tab
-    And Select the product ASIP
+    And Select the product FortunePlus
     And CLick on BI button
-    And Selected the Plan type
-    And Premium Payment Option
-    And PolicyTerm
-    And Cover Level
-    And Selected Payment frequency
-    And Annual Premium
-    And Entered Balance Fund
+    And Down to 500
+    And PolicyTerm FortunePlus
+    And Premium Paying Term
+    And Payment Frequency FortunePlus
+    And Annual Premium FortunePlus
+    And Sum Assured Option
+    And Balance Fund FortunePlus
     And Down to Bottom
-    And Clicked on BI Generate Button SIP
+    And Clicked on BI Generate Button FortunePlus
 
   @SmokeTest3
-  Scenario: ASIP- CONTINUATION- WIP
+  Scenario: Aviva Fortune Plus- CONTINUATION- WIP
     Then Click on the WIP button on home page
     And CLicked on Resume on WIP
     And Click on Mandatory document upload button
