@@ -6,7 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\Users\\User\\Health\\MavenProject\\src\\test\\java\\Features\\ASIP-LI=PRO(WITHOUTEkyc).feature" ,
+        features = "C:\\Users\\User\\Health-selenium\\MavenProject\\src\\test\\java\\Features\\POS Aviva Dhan Suraksha-LI=PRO(WITHOUTEkyc).feature" ,
+        //features = "C:\\Users\\User\\Health-selenium\\MavenProject\\src\\test\\java\\Features\\Aviva Signature 3D Term Plan-LI=PRO(WITHOUTEkyc).feature" ,
+        //features = "C:\\Users\\User\\Health-selenium\\MavenProject\\src\\test\\java\\Features\\Aviva Fortune Plus-LI=PRO(WITHOUTEkyc).feature" ,
+        //features = "C:\\Users\\User\\Health-selenium\\MavenProject\\src\\test\\java\\Features\\Aviva POS-Signature Guaranteed-LI=PRO(WITHOUTEkyc).feature" ,
+        //features = "C:\\Users\\User\\Health-selenium\\MavenProject\\src\\test\\java\\Features\\ANFIB-LI=PRO(WITHOUTEkyc).feature" ,
+        //features = "C:\\Users\\User\\Health\\MavenProject\\src\\test\\java\\Features\\ASIP-LI=PRO(WITHOUTEkyc).feature" ,
         //features = "C:\\Users\\User\\Health\\MavenProject\\src\\test\\java\\Features\\ANWB-LI=PRO(WITHOUTEkyc).feature" ,
         //features = "C:\\Users\\User\\Health\\MavenProject\\src\\test\\java\\Features\\ANWB-LI=PRO(WITHEkyc).feature" ,
         //features = "C:\\Users\\User\\Health\\MavenProject\\src\\test\\java\\Features\\HelathClaimsClaimIDGeneration.feature" ,
