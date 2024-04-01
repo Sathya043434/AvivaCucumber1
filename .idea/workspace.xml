@@ -5,46 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHEkyc).feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHOUTEkyc).feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ASIP-LI=PRO(WITHOUTEkyc).feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/AvivaStepdefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/configure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/src/main/java/org/opencart/Pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/classes/org/opencart/Pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/PageObjects/HealthClaimsLoginpage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/HelathClaimsClaimIDGenerationSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/extent.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/global.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reimbursement/ReimbursementClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reimbursement/ReimbursementClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0-sources.jar!/io/cucumber/junit/CucumberOptions.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/MavenProject/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2b7r0C1M1xj6z37lxOt2FUbWwQr" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -54,26 +67,116 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: Admin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven-project [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven-project [test].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Health/MavenProject/src/test/java/Features&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BTWOB&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="e08d722c-9665-4527-ba16-ba075d2359d2" reportId="Health-selenium/qodana/2024-03-08" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Health\MavenProject\src\test\java\Features" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI≠PRO-WithEkyc" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI=PRO-WithEKYC" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI≠PRO-WithoutEkyc" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI=PRO-WithoutEkyc" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\resources" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI=PRO-WithoutEkyc" />
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\FeaturesTwo" />
+      <recent name="C:\Users\User\Health-selenium\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="StepDefinitions" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.testRunner">
-    <configuration name="Scenario: From BI page(WIP)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: ANFIB" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/ANWB-LI=PRO(WITHOUTEkyc).feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="maven-project" />
-      <option name="NAME_FILTER" value="^From BI page\(WIP\)$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^From BI page\(WIP\)$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: From BI page(WIP)" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ANFIB" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="maven-project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Admin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: ANWB- CONTINUATION- From Self/Reference home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANWB.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="maven-project" />
+      <option name="NAME_FILTER" value="^ANWB\- CONTINUATION\- From Self\/Reference home page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^ANWB\- CONTINUATION\- From Self\/Reference home page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: ANWB- CONTINUATION- From Self/Reference home page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: New Lead Creation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="maven-project" />
+      <option name="NAME_FILTER" value="^New Lead Creation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New Lead Creation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New Lead Creation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -103,9 +206,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.testRunner" />
-        <item itemvalue="Cucumber Java.Scenario: From BI page(WIP)" />
+        <item itemvalue="Cucumber Java.Feature: Admin" />
+        <item itemvalue="Cucumber Java.Scenario: ANWB- CONTINUATION- From Self/Reference home page" />
+        <item itemvalue="Cucumber Java.Scenario: New Lead Creation" />
+        <item itemvalue="Cucumber Java.Feature: ANFIB" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +231,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java</url>
+          <line>376</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
