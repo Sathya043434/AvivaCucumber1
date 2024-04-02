@@ -111,15 +111,14 @@ Feature: ANFIB- LI≠PRO- WitheKYC
     And Click on Continue - E-Insurance Account Details
     And Down to Bottom
     And Click on Next Button
+    And Select title
     And Select age proof on About Customer
     And Select Educational Qualification
     And Select Occupation
     And Copy the Proposal ID
-    And Select the City one
-    And Enter Pincode one
-    And Enter Email no in About cutomer page
-    And Enter Mobile in About cutomer page
-    And Permanent Address same as Current Address
+#    And Select the City one
+#    And Enter Pincode one
+#    And Permanent Address same as Current Address
     And Enter Name of the Business
     And Enter Business Address Line
     And Select State

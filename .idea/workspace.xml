@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="Changes on 4th evn ofmarch">
+      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI≠PRO-WithEkyc).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Health.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Health.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/cofig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/cofig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI=PRO-WithEKYC).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ASIP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ASIP.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ASIP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ASIP.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithoutEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithoutEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/failedrerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/failedrerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/test-output/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/test-output/embedded1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,25 +90,20 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/BTWOB&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Health-selenium/MavenProject/src/test/java/Features/ADMIN&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="e08d722c-9665-4527-ba16-ba075d2359d2" reportId="Health-selenium/qodana/2024-03-08" />
-    </option>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\ADMIN" />
       <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI≠PRO-WithEkyc" />
       <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI=PRO-WithEKYC" />
       <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI≠PRO-WithoutEkyc" />
       <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features\LI=PRO-WithoutEkyc" />
-      <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java\Features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Health-selenium\MavenProject\src\test\java" />
@@ -217,6 +224,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
       </set>
     </attachedChunks>
   </component>
@@ -229,6 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1705576735776</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes on 4th ofmarch">
+      <option name="closed" value="true" />
+      <created>1712008949021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712008949021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,14 +261,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changes on 4th ofmarch" />
+    <MESSAGE value="Changes on 4th evn ofmarch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes on 4th evn ofmarch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java</url>
-          <line>376</line>
-          <option name="timeStamp" value="4" />
+          <line>430</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

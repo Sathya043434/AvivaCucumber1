@@ -130,7 +130,7 @@ Feature:ASIP- LI=PRO- WITHEkyc
     And Select age proof on About Customer
     And Select Educational Qualification
     And Select Occupation
-    And Copy the Proposal ID
+#    And Copy the Proposal ID
 #    And Select the City one
 #    And Enter Pincode one
 #    And Permanent Address same as Current Address
@@ -184,6 +184,7 @@ Feature:ASIP- LI=PRO- WITHEkyc
     And CLick on close popo-up
     And proceed to Esir
     And Select the SP agent
+    And Copy the Proposal ID in ESIR
     And Down to 500
     And Select the CheckBox
     And Down to Bottom
@@ -192,9 +193,6 @@ Feature:ASIP- LI=PRO- WITHEkyc
 
 
 
-
-
-#    Given Open Chrome browser
     Given I opened the Admin URL
     Then Entered the Email ID
     And Entered the Password
@@ -203,8 +201,8 @@ Feature:ASIP- LI=PRO- WITHEkyc
 #    And Ented the Proposal Id and Search
     And Paste the copied ProID
     And Click on Action icon
-    And Open the Uploaded Dcuments
-    And Open the Generated PDFs
+    And Open the Uploaded Dcuments LIPROSameWithEkyc
+    And Open the Generated PDFs LIPROSameWithEkyc
     And Scroll to TOP Admin
     And Click on View Logs button
 

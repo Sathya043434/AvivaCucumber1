@@ -70,44 +70,43 @@ Feature: Aviva application- ANFIB(flow)- LI=PRO- WITHOUTEkyc
 #    And Selected the Doc as Recent photo
     And Upload the Document
     And Click on OK button after uploading the document
+    And Upload the Document
+    And Click on OK button after uploading the document
+    And Down to Bottom
+    And Click Next
+    And Upload the Document
+    And Click on OK button after uploading the document
     And Down to Bottom
     And Click Next
 #    And Click on Photo Id Proof
 #    And Select Document Type
 #    And Selected the Doc as ID Address proof
     And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
     And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
-    And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
     And Down to Bottom
     And Click Next
 #    And Click on Address Proof
 #    And Select Document Type
 #    And Selected the Doc as ID Address proof two
-    And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
-    And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
-    And Upload the Document Sample adhar
-    And Click on OK button after uploading the document
+#    And Upload the Document Sample adhar
+#    And Click on OK button after uploading the document
+#    And Upload the Document Sample adhar
+#    And Click on OK button after uploading the document
     And Down to Bottom
     And Click Next
 #    And CLick on Owner bank AC Proof
 #    And Select Document Type
 #    And Selected the Doc as Bank AC Proof
-    And Upload the Document
-    And Upload the Document
-    And Down to Bottom
-    And Click Next
+#    And Upload the Document
+#    And Down to Bottom
+#    And Click Next
 #    And CLick on Joint photo
 #    And Select Document Type
 #    And Selected the Doc as Joint photo
-    And Upload the Document
-    And Click on OK button after uploading the document
-    And Down to Bottom
-    And Click on Proceed button
+#    And Upload the Document
+#    And Click on OK button after uploading the document
+#    And Down to Bottom
+#    And Click on Proceed button
     And Down to Bottom
     And Click on Continue - E-Insurance Account Details
     And Down to Bottom

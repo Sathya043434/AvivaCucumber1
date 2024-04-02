@@ -225,14 +225,14 @@ public class Steps extends BaseClass {
 
     @Then("I wait for {int} sec to enter the otp")
     public void i_wait_for_sec_to_enter_the_otp(Integer int1) throws InterruptedException {
-        Thread.sleep(60000);
+        Thread.sleep(50000);
     }
 
     @Then("Clear existing mobile no and enter a random mobile no")
     public void Clear_existing_mobile_no_and_enter_a_random_mobile_no() throws InterruptedException {
         driver.findElement(By.xpath("//input[@id='phone']")).clear();
         Thread.sleep(3000);
-        
+
     }
 
 
@@ -295,7 +295,7 @@ public class Steps extends BaseClass {
     @Then("I entered Adhar No LI")
     public void I_entered_Adhar_No_LI() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        By elementLocator = By.xpath("(//input[@class='ant-input'])[1]");
+        By elementLocator = By.xpath("(//input[@class='ant-input'])[2]");
         WebElement element1 = wait.until(ExpectedConditions.elementToBeClickable(elementLocator));
         element1.sendKeys(configprop.getProperty("AadharNumberOfLI"));
 
@@ -325,8 +325,62 @@ public class Steps extends BaseClass {
 //        driver.findElement(By.xpath("(//div[text()='Mr.'])[2]")).click();
         Thread.sleep(1000);
     }
+    @Then("Click radio button of Details Of The Life Insured Two")
+    public void Click_radio_button_of_Details_Of_The_Life_Insured_Two() throws InterruptedException {
+        driver.findElement(By.xpath("//div[@class='icon open']//img[1]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//button[contains(@class,'ant-btn ant-btn-default')])[1]")).click();
+        Thread.sleep(1000);
+        WebElement element = driver.findElement(By.xpath("(//input[@class='ant-radio-input'])[2]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+//        driver.findElement(By.xpath("(//label[text()='City']/following::input)[2]")).click();
+        Thread.sleep(1000);
+    }
+    @Then("I Selected checkbox Proceed with eKYC LI Two")
+    public void I_Selected_checkbox_Proceed_with_eKYC_LI_Two() throws InterruptedException {
 
+        JavascriptExecutor js2 = (JavascriptExecutor) driver;
+        js2.executeScript("window.scrollTo(0,1000)", "");
+        Thread.sleep(1000);
+        WebElement element = driver.findElement(By.xpath("(//input[@class='ant-checkbox-input'])[3]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+        Thread.sleep(1000);
+    }
+    @Then("I entered Adhar No LI Two")
+    public void I_entered_Adhar_No_LI_Two() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        By elementLocator = By.xpath("(//input[@class='ant-input'])[2]");
+        WebElement element1 = wait.until(ExpectedConditions.elementToBeClickable(elementLocator));
+        element1.sendKeys(configprop.getProperty("AadharNumberOfLITwo"));
 
+//        driver.findElement(By.xpath("(//span[contains(@class,'ant-input-affix-wrapper email')])[1]")).sendKeys("643022730486");
+
+        Thread.sleep(2000);
+    }
+    @Then("Cliked on Verify button LI Two")
+    public void Cliked_on_Verify_button_LI_Two() throws InterruptedException {
+        driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
+    }
+    @Then("I selected the Title LI Two")
+    public void I_selected_the_Title_LI_Two() throws InterruptedException {
+        WebElement element = driver.findElement(By.xpath("(//div[@class='ant-select-selector'])[6]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+//        driver.findElement(By.xpath("(//div[@class='ant-select-selector'])[6]")).click();
+        Thread.sleep(1000);
+
+    }
+    @Then("I Selected the Title as MR LI Two")
+    public void I_Selected_the_Title_as_MR_LI_Two() throws InterruptedException {
+        WebElement element = driver.findElement(By.xpath("(//div[text()='Mr.'])[2]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+
+//        driver.findElement(By.xpath("(//div[text()='Mr.'])[2]")).click();
+        Thread.sleep(1000);
+    }
 
     @Then("Entered First name LI")
     public void Entered_First_name_LI() throws InterruptedException {
@@ -427,8 +481,8 @@ public class Steps extends BaseClass {
     public void Enter_the_lead_id_LiProDiffW() throws InterruptedException {
         String LDID = configprop.getProperty("LeadIDs");
 
-        if (LDID.equals("LIPRODIFFWO")) {
-            driver.findElement(By.xpath("//input[@placeholder='Enter the Lead’s ID']")).sendKeys(configprop.getProperty("LiProDiffWo"));
+        if (LDID.equals("LIPRODIFFW")) {
+            driver.findElement(By.xpath("//input[@placeholder='Enter the Lead’s ID']")).sendKeys(configprop.getProperty("LiProDiffW"));
             Thread.sleep(1000);
         } else {
             WebElement targetField = driver.findElement(By.xpath("//input[@placeholder='Enter the Lead’s ID']"));
@@ -457,7 +511,7 @@ public class Steps extends BaseClass {
     @Then("Click on Apply button")
     public void Click_on_Apply_button() throws InterruptedException {
         driver.findElement(By.xpath("//div[@class='offcanvas-body']//button[1]")).click();
-        Thread.sleep(5000);
+        Thread.sleep(6000);
     }
 
 
@@ -540,10 +594,11 @@ public class Steps extends BaseClass {
             }
             lastHeight = newHeight;
         }
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         //driver.findElement(By.xpath("(//div[@class='ant-select-selector'])[3]")).click();
         driver.findElement(By.xpath("(//div[text()='Single'])[2]")).click();
+        Thread.sleep(1000);
     }
 
     @Then("I Clicked on Proceed button in Lead details tab- Personal details section")
@@ -686,8 +741,11 @@ public class Steps extends BaseClass {
         }
     }
 
+
+
     @Then("Selected the Risk Profile in Need analysis tab")
-    public void selected_the_risk_profile_in_need_analysis_tab() {
+    public void selected_the_risk_profile_in_need_analysis_tab() throws InterruptedException {
+        Thread.sleep(1000);
         driver.findElement(By.id("riskProfile")).click();
         driver.findElement(By.xpath("//div[text()='Medium Risk: Balanced, Moderate Growth']")).click();
     }
@@ -1038,7 +1096,6 @@ public class Steps extends BaseClass {
 
         driver.findElement(By.xpath("(//label[text()='PolicyTerm']/following::input)[1]")).click();
         Thread.sleep(3000);
-
         WebElement dropdown = driver.findElement(By.xpath("(//div[@class='rc-virtual-list-holder-inner'])[3]"));
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_UP);
@@ -1394,7 +1451,7 @@ public class Steps extends BaseClass {
         WebElement tabElement = driver.findElement(By.xpath("(//button[contains(@class,'ant-btn ant-btn-default')])[3]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(tabElement).click().perform();
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         //driver.findElement(By.xpath("(//button[contains(@class,'ant-btn ant-btn-default')])[3]")).click();
     }
 
@@ -1451,7 +1508,7 @@ public class Steps extends BaseClass {
         element.click();
 
 //        driver.findElement(By.xpath("(//div[@class='ant-col']//button)[2]")).click();
-        Thread.sleep(8000);
+        Thread.sleep(10000);
     }
 
     @Then("Click on Continue - E-Insurance Account Details")
@@ -1539,7 +1596,7 @@ public class Steps extends BaseClass {
 
         WebElement ProposalIDCopy = driver.findElement(By.xpath("(//input[@placeholder='Enter'])[2]"));
         String ProID = ProposalIDCopy.getText();
-        System.setProperty("ProID", ProID);
+        System.out.println("Proposal Number: " + ProID);
 
 
 
@@ -1821,7 +1878,7 @@ public class Steps extends BaseClass {
     }
     @Then("Select Age Proof in Proposer details")
     public void Select_Age_Proof_in_Proposer_details () throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[1]/div[29]/div/div/div[2]/div[1]/div/div/div"));
+        WebElement element = driver.findElement(By.xpath("(//label[text()='Age Proof']/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
@@ -1881,7 +1938,7 @@ public class Steps extends BaseClass {
     }
     @Then("Select the Source Of Income in Proposer details")
     public void Select_the_Source_Of_Income_in_Proposer_details() throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[3]/div[16]/div/div/div[2]/div[1]/div/div/div"));
+        WebElement element = driver.findElement(By.xpath("(//label[text()='Source Of Income']/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
@@ -1913,7 +1970,7 @@ public class Steps extends BaseClass {
     }
     @Then("Select the State")
     public void Select_the_State() throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[3]/div[28]/div/div/div[2]/div[1]/div/div/div"));
+            WebElement element = driver.findElement(By.xpath("((//label[text()='State'])[2]/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
@@ -1929,12 +1986,12 @@ public class Steps extends BaseClass {
     }
     @Then("Select the City in Proposer details two")
     public void Select_the_City_in_Proposer_details_two() throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[3]/div[29]/div/div/div[2]/div[1]/div/div/div"));
+        WebElement element = driver.findElement(By.xpath("((//label[text()='City'])[2]/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
 
-        WebElement element1 = driver.findElement(By.xpath("(//div[text()='A P S E Board Bella Vista'])[2]"));
+        WebElement element1 = driver.findElement(By.xpath("(//div[text()='A P S E Board Bella Vista'])[1]"));
         Actions actions1 = new Actions(driver);
         actions1.moveToElement(element1).click().perform();
         Thread.sleep(1000);
@@ -1971,7 +2028,7 @@ public class Steps extends BaseClass {
     }
     @Then("Select Bank Name in Proposer details")
     public void Select_Bank_Name_in_Proposer_details() throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[3]/div[44]/div/div/div[2]/div[1]/div/div/div"));
+        WebElement element = driver.findElement(By.xpath("(//label[text()='Bank Name']/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
@@ -1988,7 +2045,7 @@ public class Steps extends BaseClass {
     }
     @Then("Select Bank Account Type in proposer details")
     public void Select_Bank_Account_Type_in_proposer_details() throws InterruptedException {
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div/div/div[2]/div[2]/form/div/div[2]/div[3]/div[45]/div/div/div[2]/div[1]/div/div/div"));
+        WebElement element = driver.findElement(By.xpath("(//label[text()='Bank Account Type']/following::input)[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
         Thread.sleep(1000);
@@ -2062,6 +2119,11 @@ public class Steps extends BaseClass {
     public void wait_for_sec_for_entering_otp() throws InterruptedException {
         Thread.sleep(50000);
     }
+    @Then("Click on to payment")
+    public void Click_on_to_payment() throws InterruptedException {
+        driver.findElement(By.xpath("//button[text()='Proceed to Payment']")).click();
+        Thread.sleep(6000);
+    }
     @Then("Click on payment mode")
     public void Click_on_payment_mode () throws InterruptedException {
 
@@ -2104,6 +2166,15 @@ public class Steps extends BaseClass {
         driver.findElement(By.xpath("(//div[@class='rc-virtual-list-holder-inner']//div)[1]")).click();
         Thread.sleep(1000);
 
+    }
+    @Then("Copy the Proposal ID in ESIR")
+    public void Copy_the_Proposal_ID_in_ESIR () throws InterruptedException {
+
+        WebElement leadIdElement = driver.findElement(By.xpath("(//label[text()='Proposal Form Number']/following::input)[1]"));
+        String ProposalIDESIR = leadIdElement.getText();
+        System.setProperty("ProID", ProposalIDESIR);
+//        driver.findElement(By.xpath("(//label[text()='Proposal Form Number']/following::input)[1]")).click();
+        Thread.sleep(1000);
     }
     @Then("Select the CheckBox")
     public void Select_the_CheckBox() throws InterruptedException {
@@ -2179,6 +2250,16 @@ public class Steps extends BaseClass {
     @Given("I opened the Admin URL")
     public void i_opened_the_admin_url() {
 
+        ((JavascriptExecutor) driver).executeScript("window.open()");
+//        String currentWindowHandle = driver.getWindowHandle();
+//        Set<String> windowHandles = driver.getWindowHandles();
+//        for (String handle : windowHandles) {
+//            if (!handle.equals(currentWindowHandle)) {
+//                driver.switchTo().window(handle);
+//                break;
+//            }
+//        }
+
         String urL = configprop.getProperty("AdminURL");
 
         if (urL.equals("DEV")) {
@@ -2219,7 +2300,7 @@ public class Steps extends BaseClass {
         driver.findElement(By.xpath("//button[contains(@class,'v-app-bar__nav-icon ml-2')]")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("(//div[@class='v-list-item__title font-weight-bold'])[1]")).click();
-        Thread.sleep(10000);
+        Thread.sleep(8000);
     }
     @Then("Ented the Proposal Id and Search")
     public void ented_the_proposal_id_and_search() throws InterruptedException {
@@ -2228,7 +2309,7 @@ public class Steps extends BaseClass {
         WebElement ProposalIdField = driver.findElement(By.xpath("//div[@class='v-text-field__slot']//input[1]"));
         ProposalIdField.sendKeys(configprop.getProperty("ProposalID"));
         ProposalIdField.sendKeys(Keys.ENTER);
-        Thread.sleep(8000);
+        Thread.sleep(6000);
     }
 
     @Then("Paste the copied ProID")
@@ -2242,9 +2323,9 @@ public class Steps extends BaseClass {
             ProposalIdField.sendKeys(Keys.ENTER);
             Thread.sleep(8000);
         } else {
-            WebElement targetField = driver.findElement(By.xpath("//div[@class='v-text-field__slot']//input[1]"));
-            targetField.sendKeys(System.getProperty("ProID"));
-            targetField.sendKeys(Keys.ENTER);
+            WebElement targetField1 = driver.findElement(By.xpath("//div[@class='v-text-field__slot']//input[1]"));
+            targetField1.sendKeys(System.getProperty("ProID"));
+            targetField1.sendKeys(Keys.ENTER);
             Thread.sleep(8000);
         }
 
@@ -2254,10 +2335,10 @@ public class Steps extends BaseClass {
         driver.findElement(By.xpath("(//button[contains(@class,'v-icon notranslate')])[2]")).click();
         Thread.sleep(6000);
     }
-    @Then("Open the Uploaded Dcuments")
-    public void open_the_uploaded_dcuments() throws InterruptedException {
+    @Then("Open the Uploaded Dcuments LIPROSameWithEkyc")
+    public void open_the_uploaded_dcuments_LIPROSameWithEkyc() throws InterruptedException {
         driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[1]")).click();
-        Thread.sleep(6000);
+        Thread.sleep(5000);
         driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[1]")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
@@ -2286,14 +2367,57 @@ public class Steps extends BaseClass {
         Thread.sleep(4000);
         driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[1]")).click();
         Thread.sleep(2000);
+
         Set<String> allHandles = driver.getWindowHandles();
         String mainTabHandle = allHandles.iterator().next(); // Get the first handle (assuming it's the main tab)
         driver.switchTo().window(mainTabHandle);
         Thread.sleep(2000);
 
     }
-    @Then("Open the Generated PDFs")
-    public void open_the_generated_pd_fs() throws InterruptedException {
+
+    @Then("Open the Uploaded Dcuments LIPRODIFFWithEKYC")
+    public void open_the_uploaded_dcuments_LIPRODIFFWithEKYC() throws InterruptedException {
+        driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[1]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[1]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[2]  ")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[3]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[4]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[5]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//td[@class='text-xs-left']//img)[6]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[contains(@class,'v-btn v-btn--absolute')]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[7]")).click();
+        Thread.sleep(4000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[8]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[1]")).click();
+        Thread.sleep(2000);
+
+        Set<String> allHandles = driver.getWindowHandles();
+        String mainTabHandle = allHandles.iterator().next(); // Get the first handle (assuming it's the main tab)
+        driver.switchTo().window(mainTabHandle);
+        Thread.sleep(2000);
+
+    }
+    @Then("Open the Generated PDFs LIPROSameWithEkyc")
+    public void open_the_generated_pd_fs_LIPROSameWithEkyc() throws InterruptedException {
         driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[2]")).click();
         Thread.sleep(4000);
         driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[8]")).click();
@@ -2312,10 +2436,42 @@ public class Steps extends BaseClass {
         Thread.sleep(2000);
         driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[2]")).click();
         Thread.sleep(1000);
+
         Set<String> allHandles = driver.getWindowHandles();
         String mainTabHandle = allHandles.iterator().next(); // Get the first handle (assuming it's the main tab)
         driver.switchTo().window(mainTabHandle);
         Thread.sleep(2000);
+
+    }
+
+    @Then("Open the Generated PDFs LIPRODIFFWithEKYC")
+    public void open_the_generated_pd_fs_LIPRODIFFWithEKYC() throws InterruptedException {
+        driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[2]")).click();
+        Thread.sleep(4000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[9]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[10]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[11]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[12]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[13]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[14]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[15]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@class='mx-0 v-btn v-btn--icon v-btn--round theme--light v-size--default'])[16]")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//div[@class='v-expansion-panel-header__icon']//i)[2]")).click();
+        Thread.sleep(1000);
+
+        Set<String> allHandles = driver.getWindowHandles();
+        String mainTabHandle = allHandles.iterator().next(); // Get the first handle (assuming it's the main tab)
+        driver.switchTo().window(mainTabHandle);
+        Thread.sleep(2000);
+
     }
 
     @Then("Scroll to TOP Admin")
@@ -2329,7 +2485,7 @@ public class Steps extends BaseClass {
     @Then("Click on View Logs button")
     public void click_on_view_logs_button() throws InterruptedException, AWTException {
         driver.findElement(By.xpath("//button[contains(@class,'mr-2 mb-4')]")).click();
-        Thread.sleep(2000);
+        Thread.sleep(2500);
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_F);
@@ -2338,5 +2494,4 @@ public class Steps extends BaseClass {
 
 
     }
-
 }

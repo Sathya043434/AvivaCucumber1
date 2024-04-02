@@ -131,7 +131,7 @@ Feature: ANFIB-LI≠PRO- WithouteKYC
     And Select age proof on About Customer
     And Select Educational Qualification
     And Select Occupation
-    And Copy the Proposal ID
+#    And Copy the Proposal ID
     And Select the City one
     And Enter Pincode one
     And Enter Email no in About cutomer page

@@ -7,11 +7,11 @@ Feature: Admin Functionality
     And Entered the Password
     And Clicked on Login button
     And Click on QC from side menu
-#    And Ented the Proposal Id and Search
-    And Paste the copied ProID
+    And Ented the Proposal Id and Search
+#    And Paste the copied ProID
     And Click on Action icon
-    And Open the Uploaded Dcuments
-    And Open the Generated PDFs
+    And Open the Uploaded Dcuments LIPRODIFFWithEKYC
+    And Open the Generated PDFs LIPRODIFFWithEKYC
     And Scroll to TOP Admin
     And Click on View Logs button
 
