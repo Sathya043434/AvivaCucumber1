@@ -95,6 +95,7 @@ Feature: ASIP- LI≠PRO- WitheKYC
 
 
 
+
 #    Then Click on the WIP button on home page
 #    And CLicked on Resume on WIP
     And Click on Mandatory document upload button
@@ -147,7 +148,7 @@ Feature: ASIP- LI≠PRO- WitheKYC
     And Select age proof on About Customer
     And Select Educational Qualification
     And Select Occupation
-#    And Copy the Proposal ID
+    And Copy the Proposal ID
 #    And Select the City one
 #    And Enter Pincode one
     And Enter Email no in About cutomer page
@@ -201,10 +202,10 @@ Feature: ASIP- LI≠PRO- WitheKYC
     And Click on Proceed button in Proposer details
 
 
-
     And Select Document Type
     And Selected the Doc as IncomeProof
     And Upload the Document
+    And Down to Bottom
     And Click Next
     And Select Document Type
     And Selected the Doc as Self Addendum
@@ -229,6 +230,21 @@ Feature: ASIP- LI≠PRO- WitheKYC
     And Down to Bottom
     And Click on Submit
     And Click on Verify Button
+
+
+
+    Given I opened the Admin URL
+    Then Entered the Email ID
+    And Entered the Password
+    And Clicked on Login button
+    And Click on QC from side menu
+#    And Ented the Proposal Id and Search
+    And Paste the copied ProID
+    And Click on Action icon
+    And Open the Uploaded Dcuments LIPRODIFFWithEKYC
+    And Open the Generated PDFs LIPRODIFFWithEKYC
+    And Scroll to TOP Admin
+    And Click on View Logs button
 
 
 

@@ -75,6 +75,8 @@ Feature: Aviva application- POS Aviva Dhan Suraksha- LI=PRO- WITHEkyc
 #    And Selected the Doc as Recent photo
     And Upload the Document
     And Click on OK button after uploading the document
+    And Upload the Document
+    And Click on OK button after uploading the document
     And Down to Bottom
     And Click Next
 #    And Click on Photo Id Proof
@@ -110,7 +112,7 @@ Feature: Aviva application- POS Aviva Dhan Suraksha- LI=PRO- WITHEkyc
     And Click on Continue - E-Insurance Account Details
     And Down to Bottom
     And Click on Next Button
-    And Select title
+#    And Select title
     And Select age proof on About Customer
     And Select Educational Qualification
     And Select Occupation
@@ -121,7 +123,7 @@ Feature: Aviva application- POS Aviva Dhan Suraksha- LI=PRO- WITHEkyc
     And Enter Name of the Business
     And Enter Business Address Line
     And Select State
-    And Select the City
+    And Select the City LIPROSAME
     And Enter Pincode
     And Enter Tel
     And Enter Email Id
@@ -154,6 +156,7 @@ Feature: Aviva application- POS Aviva Dhan Suraksha- LI=PRO- WITHEkyc
     And Select Document Type
     And Selected the Doc as Self Addendum
     And Upload the Document
+    And Down to Bottom
     And Click Next
     And Select the Check box on otp auth
     And Down to Bottom
@@ -166,6 +169,12 @@ Feature: Aviva application- POS Aviva Dhan Suraksha- LI=PRO- WITHEkyc
     And Click on Proceed
     And CLick on close popo-up
     And proceed to Esir
+    And Select the SP agent
+    And Down to 500
+    And Select the CheckBox
+    And Down to Bottom
+    And Click on Submit
+    And Click on Verify Button
 
 
 

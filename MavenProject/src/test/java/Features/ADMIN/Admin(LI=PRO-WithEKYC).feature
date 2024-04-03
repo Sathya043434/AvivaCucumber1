@@ -7,8 +7,8 @@ Feature: Admin Functionality
     And Entered the Password
     And Clicked on Login button
     And Click on QC from side menu
-    And Ented the Proposal Id and Search
-#    And Paste the copied ProID
+#    And Ented the Proposal Id and Search
+    And Paste the copied ProID
     And Click on Action icon
     And Open the Uploaded Dcuments LIPROSameWithEkyc
     And Open the Generated PDFs LIPROSameWithEkyc

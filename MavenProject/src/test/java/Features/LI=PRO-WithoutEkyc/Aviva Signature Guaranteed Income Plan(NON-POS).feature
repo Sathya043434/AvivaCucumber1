@@ -105,7 +105,6 @@ Feature: Aviva application- Aviva POS-Signature Guaranteed(NON-POS) - LI=PRO- WI
 #    And Select Document Type
 #    And Selected the Doc as Bank AC Proof
     And Upload the Document
-    And Upload the Document
     And Down to Bottom
     And Click Next
 #    And CLick on Joint photo
@@ -125,6 +124,7 @@ Feature: Aviva application- Aviva POS-Signature Guaranteed(NON-POS) - LI=PRO- WI
     And Copy the Proposal ID
     And Select the City one
     And Enter Pincode one
+#    And Enter Email no in About cutomer page
 #    And Permanent Address same as Current Address
     And Enter Name of the Business
     And Enter Business Address Line

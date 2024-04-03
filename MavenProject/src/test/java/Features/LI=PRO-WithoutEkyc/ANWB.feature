@@ -67,6 +67,7 @@ Feature: Aviva application- ANWB(flow)- LI=PRO- WITHOUTEkyc
 
 
 
+
 #    Then Click on the WIP button on home page
 #    And CLicked on Resume on WIP
     And Click on Mandatory document upload button

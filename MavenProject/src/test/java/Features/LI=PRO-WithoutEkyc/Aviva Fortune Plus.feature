@@ -69,6 +69,7 @@ Feature: Aviva application- Aviva Fortune Plus- LI=PRO- WITHOUTEkyc
 
 
 
+
 #    Then Click on the WIP button on home page
 #    And CLicked on Resume on WIP
     And Click on Mandatory document upload button
@@ -104,7 +105,6 @@ Feature: Aviva application- Aviva Fortune Plus- LI=PRO- WITHOUTEkyc
 #    And Select Document Type
 #    And Selected the Doc as Bank AC Proof
     And Upload the Document
-    And Upload the Document
     And Down to Bottom
     And Click Next
 #    And CLick on Joint photo
@@ -124,6 +124,7 @@ Feature: Aviva application- Aviva Fortune Plus- LI=PRO- WITHOUTEkyc
     And Copy the Proposal ID
     And Select the City one
     And Enter Pincode one
+#    And Enter Email no in About cutomer page
 #    And Permanent Address same as Current Address
     And Enter Name of the Business
     And Enter Business Address Line

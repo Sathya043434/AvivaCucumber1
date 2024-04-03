@@ -36,6 +36,8 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.Set;
 
+import static javax.swing.text.html.CSS.getAttribute;
+
 public class Steps extends BaseClass {
 
     @Before
@@ -1594,10 +1596,10 @@ public class Steps extends BaseClass {
         driver.findElement(By.xpath("//p[text()='Please Fill the CRS/ FATCA Addendum form']")).click();
         Thread.sleep(1000);
 
-        WebElement ProposalIDCopy = driver.findElement(By.xpath("(//input[@placeholder='Enter'])[2]"));
-        String ProID = ProposalIDCopy.getText();
-        System.out.println("Proposal Number: " + ProID);
-
+        WebElement ProposalIDCopy = driver.findElement(By.xpath("(//label[text()='Proposal/Policy Number']/following::input)[1]"));
+        String ProID = ProposalIDCopy.getAttribute("value");
+        System.setProperty("ProID", ProID );
+        System.out.println("Proposal Number: " +ProID);
 
 
         Thread.sleep(1000);
@@ -2167,15 +2169,6 @@ public class Steps extends BaseClass {
         Thread.sleep(1000);
 
     }
-    @Then("Copy the Proposal ID in ESIR")
-    public void Copy_the_Proposal_ID_in_ESIR () throws InterruptedException {
-
-        WebElement leadIdElement = driver.findElement(By.xpath("(//label[text()='Proposal Form Number']/following::input)[1]"));
-        String ProposalIDESIR = leadIdElement.getText();
-        System.setProperty("ProID", ProposalIDESIR);
-//        driver.findElement(By.xpath("(//label[text()='Proposal Form Number']/following::input)[1]")).click();
-        Thread.sleep(1000);
-    }
     @Then("Select the CheckBox")
     public void Select_the_CheckBox() throws InterruptedException {
         driver.findElement(By.xpath("//span[@class='ant-checkbox']//input[1]")).click();
@@ -2191,6 +2184,7 @@ public class Steps extends BaseClass {
     public void Click_on_Verify_Button() throws InterruptedException {
         driver.findElement(By.xpath("//button[contains(@class,'ant-btn ant-btn-primary')]")).click();
         Thread.sleep(70000);
+
     }
 
 
@@ -2250,7 +2244,7 @@ public class Steps extends BaseClass {
     @Given("I opened the Admin URL")
     public void i_opened_the_admin_url() {
 
-        ((JavascriptExecutor) driver).executeScript("window.open()");
+//        ((JavascriptExecutor) driver).executeScript("window.open()");
 //        String currentWindowHandle = driver.getWindowHandle();
 //        Set<String> windowHandles = driver.getWindowHandles();
 //        for (String handle : windowHandles) {
@@ -2259,6 +2253,30 @@ public class Steps extends BaseClass {
 //                break;
 //            }
 //        }
+//
+//
+//        // Need at least two tabs for switching and closing
+//        if (windowHandles.size() < 2) {
+//            System.out.println("Need to open at least two tabs before switching and closing.");
+//            driver.quit();
+//            return;
+//        }
+//
+//        String currentHandle = driver.getWindowHandle();
+//
+//        // Iterate through handles to find the previous tab
+//        for (String handle : windowHandles) {
+//            if (!handle.equals(currentHandle)) {
+//                driver.switchTo().window(handle);
+//                break;
+//            }
+//        }
+//
+//        // Now we're on the previous tab, close it
+//        driver.close();
+//
+//        // Switch back to the original tab (optional)
+//        driver.switchTo().window(currentHandle);
 
         String urL = configprop.getProperty("AdminURL");
 

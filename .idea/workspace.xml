@@ -4,25 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="Changes on 4th evn ofmarch">
-      <change afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI≠PRO-WithEkyc).feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Health.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Health.iml" afterDir="false" />
+    <list default="true" id="5ecfb879-b3ee-4bbb-90b8-20dde4e0b34c" name="Changes" comment="Changes on 4th evng ofmarch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/cofig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/cofig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI=PRO-WithEKYC).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI=PRO-WithEKYC).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI=PRO-WithEKYC).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI≠PRO-WithEkyc).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/ADMIN/Admin(LI≠PRO-WithEkyc).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ANWB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ANWB.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ASIP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/ASIP.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Fortune Plus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Fortune Plus.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature 3D Term Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature 3D Term Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature 3D Term Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature 3D Term Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Guaranteed Income Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Guaranteed Income Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Guaranteed Income Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Guaranteed Income Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Monthly Income Plan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/Aviva Signature Monthly Income Plan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/POS Aviva Dhan Suraksha.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithEKYC/POS Aviva Dhan Suraksha.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANWB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ANWB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ASIP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/ASIP.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Fortune Plus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Fortune Plus.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature 3D Term Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature 3D Term Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature 3D Term Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature 3D Term Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Guaranteed Income Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Guaranteed Income Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Guaranteed Income Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Guaranteed Income Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Monthly Income Plan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/Aviva Signature Monthly Income Plan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/POS Aviva Dhan Suraksha.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI=PRO-WithoutEkyc/POS Aviva Dhan Suraksha.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANWB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ANWB.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ASIP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/ASIP.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithoutEkyc/ANFIB.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithoutEkyc/ANFIB.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Fortune Plus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Fortune Plus.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature 3D Term Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature 3D Term Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature 3D Term Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature 3D Term Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Guaranteed Income Plan(NON-POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Guaranteed Income Plan(NON-POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Guaranteed Income Plan(POS).feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Guaranteed Income Plan(POS).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Monthly Income Plan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/Aviva Signature Monthly Income Plan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/POS Aviva Dhan Suraksha.feature" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/Features/LI≠PRO-WithEkyc/POS Aviva Dhan Suraksha.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/src/test/java/TestRunner/testRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/target/failedrerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/failedrerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/test-classes/StepDefinitions/Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/target/test-classes/TestRunner/testRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MavenProject/test-output/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject/test-output/embedded1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712008949021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes on 4th evng ofmarch">
+      <option name="closed" value="true" />
+      <created>1712070004963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712070004963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,18 +292,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes on 4th ofmarch" />
     <MESSAGE value="Changes on 4th evn ofmarch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes on 4th evn ofmarch" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MavenProject/src/test/java/StepDefinitions/Steps.java</url>
-          <line>430</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Changes on 4th evng ofmarch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes on 4th evng ofmarch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

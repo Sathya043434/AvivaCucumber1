@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         // 1 . LI=PRO-WithEkyc
         //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\ANFIB.feature" ,
         //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\ANWB.feature" ,
-        //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\ASIP.feature" ,
+        features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\ASIP.feature" ,
         //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\Aviva Fortune Plus.feature" ,
         //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\Aviva Signature Guaranteed Income Plan(NON-POS).feature" ,
         //features = "src\\test\\java\\Features\\LI=PRO-WithEKYC\\Aviva Signature Guaranteed Income Plan(POS).feature" ,
@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
         //3. LI≠PRO- WitheKYC
         //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\ANFIB.feature" ,
         //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\ANWB.feature" ,
-        features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\ASIP.feature" ,
+        //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\ASIP.feature" ,
         //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\Aviva Fortune Plus.feature" ,
         //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\Aviva Signature Guaranteed Income Plan(NON-POS).feature" ,
         //features = "src\\test\\java\\Features\\LI≠PRO-WithEkyc\\Aviva Signature Guaranteed Income Plan(POS).feature" ,
@@ -87,7 +87,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
         glue = "StepDefinitions", monochrome = true,
-        //tags = "@PRODUCT" ,
+        tags = "@PRODUCT" ,
 
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

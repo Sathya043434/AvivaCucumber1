@@ -78,6 +78,7 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
 
 
 
+
 #    Then Click on the WIP button on home page
 #    And CLicked on Resume on WIP
     And Click on Mandatory document upload button
@@ -132,7 +133,8 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
     And Copy the Proposal ID
     And Select the City one
     And Enter Pincode one
-    And Permanent Address same as Current Address
+#    And Enter Email no in About cutomer page
+#    And Permanent Address same as Current Address
     And Enter Name of the Business
     And Enter Business Address Line
     And Select State
@@ -154,7 +156,6 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
     And Click on Next Button
     And Entered Customer Height & Weight in Health Details DGH section
     And Click on Next Button
-    And Down to Bottom
     And Click on Next Button
     And Entered First Name in Nomination Details
     And Entered Last Name
@@ -188,7 +189,6 @@ Feature: Aviva application- ASIP- LI=PRO- WITHOUTEkyc
 #    And Select Check box
 #    And Down to Bottom
 #    And Click on Submit button in Final page
-
 
 
 

@@ -78,6 +78,8 @@ Feature: Aviva Signature Monthly Income Plan-LI=PRO-WitheKYC
 #    And Selected the Doc as Recent photo
     And Upload the Document
     And Click on OK button after uploading the document
+    And Upload the Document
+    And Click on OK button after uploading the document
     And Down to Bottom
     And Click Next
 #    And Click on Photo Id Proof
@@ -124,7 +126,7 @@ Feature: Aviva Signature Monthly Income Plan-LI=PRO-WitheKYC
     And Enter Name of the Business
     And Enter Business Address Line
     And Select State
-    And Select the City
+    And Select the City LIPROSAME
     And Enter Pincode
     And Enter Tel
     And Enter Email Id
@@ -157,6 +159,7 @@ Feature: Aviva Signature Monthly Income Plan-LI=PRO-WitheKYC
     And Select Document Type
     And Selected the Doc as Self Addendum
     And Upload the Document
+    And Down to Bottom
     And Click Next
     And Select the Check box on otp auth
     And Down to Bottom
@@ -169,3 +172,9 @@ Feature: Aviva Signature Monthly Income Plan-LI=PRO-WitheKYC
     And Click on Proceed
     And CLick on close popo-up
     And proceed to Esir
+    And Select the SP agent
+    And Down to 500
+    And Select the CheckBox
+    And Down to Bottom
+    And Click on Submit
+    And Click on Verify Button
